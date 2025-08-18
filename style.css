@@ -1,0 +1,43 @@
+body{
+    background-color: #f2daff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main{
+    width: 35%;
+    background-color: white;
+    margin: 170px auto;
+    border: #4d4d4d69 solid 0.1px;
+    border-radius: 15px;
+}
+
+.head{
+    border: #4d4d4d69 solid 0.1px 0;
+    border-radius: 14px 14px 0 0;
+    background-color: #e3afff;
+}
+
+.head h1{
+    padding-bottom: 10px;
+}
+
+.city{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;   
+}
+
+.city button{
+    border: rgba(0, 0, 0, 1) solid 1px;
+    background-color: #e3afff;
+}
+
+.output p{
+    font-weight: 600;
+    font-size: medium;
+    margin: 10px;
+}
